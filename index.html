@@ -10,9 +10,8 @@
     <title>Todo List</title>
 </head>
 <body>
-
     <header>
-        <h1>Todo List</h1>
+        <h1>To do List</h1>
     </header>
 
     <form>
@@ -20,6 +19,14 @@
         <button class="todo-button" type="submit">
             <i class="fas fa-plus-square"></i>
         </button>
+
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
     </form>
 
     <div class="todo-container">
